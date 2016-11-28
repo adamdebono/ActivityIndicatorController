@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ActivityIndicatorController"
-  s.version      = "1.1.0"
+  s.version      = "1.2.0"
   s.summary      = "Shows a UIActivityIndicatorView inside a UIAlertController"
   
   s.homepage     = "https://github.com/adamdebono/ActivityIndicatorController"
@@ -14,5 +14,4 @@ Pod::Spec.new do |s|
   s.source_files = "Source/ActivityIndicatorController.swift"
   
   s.framework = "UIKit"
-  s.dependency  "SwiftConstraints", "~> 1.0.0"
 end
